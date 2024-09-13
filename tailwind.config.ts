@@ -27,14 +27,7 @@ const config: Config = {
     },
   },
   plugins: [    
-    function ({ addUtilities }) {
-    addUtilities({
-      '.mask-gradient-to-right': {
-        'mask-image': 'linear-gradient(to right, transparent, black, transparent)',
-        '-webkit-mask-image': 'linear-gradient(to right, transparent, black, transparent)', // Para compatibilidad con WebKit
-      },
-    });
-  },
+    
 ],
 };
 
